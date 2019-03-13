@@ -21,9 +21,7 @@ class CashRegister
       "There is no discount to apply."
    end
   end 
-  def items 
-    @items_array
-  end   
+  
   def void_last_transaction 
     @total -= @price
   end  
